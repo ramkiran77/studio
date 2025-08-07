@@ -8,15 +8,15 @@ export interface Product {
   dataAiHint: string;
 }
 
-export const products: Product[] = [
+export const Categories: Categories[] = [
   {
     id: 1,
-    name: 'Organic Avocados',
-    description: 'Creamy and delicious, perfect for toast or salads.',
-    price: 4.99,
+    name: 'Milk',
+    description: 'perfectly served with creamy and delicious,.',
+    price: 24,
     image: 'https://placehold.co/600x400.png',
-    dataAiHint: 'avocado fruit',
-    category: 'Fruits & Vegetables',
+    dataAiHint: 'Toned Milk',
+    category: 'Diary',
   },
   {
     id: 2,
